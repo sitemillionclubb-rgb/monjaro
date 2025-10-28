@@ -80,22 +80,7 @@ export default function VSLPage({ userName, onContinue }: VSLPageProps) {
           você precisaria usar a API do player VSL, se ela disponibilizar tais eventos.
         */}
         {videoScriptLoaded && (
-          <div className="mt-8 text-center">
-            <p className="text-xl font-semibold text-gray-800 mb-4">
-              Clique abaixo para acessar o protocolo completo!
-            </p>
-            <button
-              onClick={handleActionClick}
-              className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-2xl animate-pulse transition duration-300 ease-in-out transform hover:scale-105"
-            >
-              SIM! Quero meu "Mounjaro de Pobre" AGORA!
-            </button>
-            <p className="text-sm text-gray-600 mt-4">
-              *Oferta por tempo limitado.
-            </p>
-          </div>
-        )}
-      </div>
+         
 
       {/* Footer Simples (Opcional) */}
       <footer className="bg-gray-100 p-4 text-center text-gray-600 text-sm mt-8">
