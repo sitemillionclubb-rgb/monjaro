@@ -11,7 +11,7 @@ export default function VSLPage({ userName, onContinue }: VSLPageProps) {
   useEffect(() => {
     const script = document.createElement("script")
     script.src =
-      "https://scripts.converteai.net/89ff5648-3264-4b81-aa6a-289811c4f92c/players/68ed5162e32037963bde6eab/v4/player.js"
+      "https://scripts.converteai.net/89ff5648-3264-4b81-aa6a-289811c4f92c/players/69000296f17270f44e1ebcc9/v4/player.js"
     script.async = true
     document.head.appendChild(script)
 
@@ -39,7 +39,7 @@ export default function VSLPage({ userName, onContinue }: VSLPageProps) {
       <div className="max-w-4xl mx-auto p-6">
         <div className="bg-white rounded-lg shadow-lg overflow-hidden p-6">
           <vturb-smartplayer
-            id="vid-68ed5162e32037963bde6eab"
+            id="vid-69000296f17270f44e1ebcc9"
             style={{ display: "block", margin: "0 auto", width: "100%" }}
           ></vturb-smartplayer>
         </div>
